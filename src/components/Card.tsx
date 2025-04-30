@@ -49,7 +49,7 @@ const Card: React.FC<CardProps> = ({
         <header className="flex justify-between items-center mb-4">
           <h2 className="text-white text-preset-5-medium">{title}</h2>
           <img
-            src="../src/assets/icon-ellipsis.svg"
+            src="./images/icon-ellipsis.svg"
             alt="Ellipsis icon"
             className="w-[21px] h-[5px] cursor-pointer"
           />
