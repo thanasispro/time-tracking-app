@@ -14,7 +14,7 @@ const Profile: React.FC<ProfileProps> = ({ activeButton, setActiveButton }) => {
     <section className="flex flex-col mt-[81px] md:mt-0 w-full lg:w-[255px] lg:min-h-[520px]">
       <header className="flex flex-row items-center bg-purple-600 gap-6 rounded-[15px] z-10 relative p-[39px_37px_32px_32px] md:py-[34.5px] md:pl-8 lg:flex-col lg:items-start lg:gap-4 lg:pl-[32px] lg:pt-[32px] lg:pr-[85px] lg:pb-[92px] lg:gap-[40px]">
         <img
-          src="../src/assets/image-jeremy.png"
+          src="./images/image-jeremy.png"
           alt="Jeremy Robson's Profile Picture"
           className="rounded-full w-16 h-16 border-white border-4"
         />

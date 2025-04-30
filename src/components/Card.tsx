@@ -39,7 +39,7 @@ const Card: React.FC<CardProps> = ({
         style={{ backgroundColor: backgroundColor }}
       >
         <img
-          src={`../src/assets/${icon}`}
+          src={`./images/${icon}`}
           alt={`${title} icon`}
           className="absolute top-[-8px] right-[12px] w-[76px] h-[76px] pointer-events-none"
         />

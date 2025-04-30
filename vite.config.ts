@@ -5,12 +5,7 @@ import { resolve } from 'path';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: 'time-tracking-app',
-  resolve: {
-    alias: {
-      '@': resolve(__dirname, 'src'),
-    },
-  },
+  base: '/time-tracking-app/',
   server: {
     port: 3000,
   },
