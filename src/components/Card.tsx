@@ -41,11 +41,11 @@ const Card: React.FC<CardProps> = ({
         <img
           src={`./images/${icon}`}
           alt={`${title} icon`}
-          className="absolute top-[-8px] right-[12px] w-[76px] h-[76px] pointer-events-none"
+          className="absolute top-[-10px] right-[12px] w-[76px] h-[76px] pointer-events-none"
         />
       </div>
 
-      <section className="relative mt-[38px] px-6 pb-6 lg:gap-3 pt-8 lg:px-8 lg:pb-8 flex flex-col justify-between hover:bg-navy-800 bg-navy-900 rounded-t-[15px] min-h-[calc(100%-70px)]">
+      <section className="relative mt-[42px] px-6 pb-6 lg:gap-3 pt-8 lg:px-8 lg:pb-8 flex flex-col justify-between hover:bg-navy-800 bg-navy-900 rounded-t-[15px] min-h-[calc(100%-70px)]">
         <header className="flex justify-between items-center mb-4">
           <h2 className="text-white text-preset-5-medium">{title}</h2>
           <img
